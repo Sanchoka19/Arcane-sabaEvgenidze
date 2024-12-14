@@ -1,10 +1,19 @@
+@font-face {
+    font-family: 'arcane';
+    src: url('./font/IM_Fell_English_SC/IMFellEnglishSC-Regular.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'arcane';
+}
+
+button {
+    font-family: 'arcane';
 }
 
 a {
@@ -18,7 +27,6 @@ ul {
 
 header {
     width: 960px;
-    height: 44px;
 
     display: flex;
     justify-content: space-between;
@@ -35,7 +43,6 @@ header {
     transform: translateX(-50%);
     top: 20px;
 }
-
 
 .navlist {
     display: flex;
